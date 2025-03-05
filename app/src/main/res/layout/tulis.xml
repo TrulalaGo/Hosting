@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="300dp"
+     android:background="#affaff"
+     android:orientation="vertical">
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:background="#000000"
+         android:padding="5dp"
+         android:layout_margin="10dp"
+         android:textColor="#ffffff"
+         android:layout_gravity="center_horizontal"
+         android:text="Masukan" />
+
+    <EditText
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:background="#222222"
+         android:hint="tulis"
+         android:padding="5dp"
+         android:layout_margin="20dp"
+         android:textColor="#ffffff"
+         android:id="@+id/tulis" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_margin="20dp"
+         android:text="Mulai"
+         android:id="@+id/buat" />
+
+</LinearLayout>
