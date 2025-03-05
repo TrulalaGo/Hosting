@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="#000000"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_margin="5dp"
+         android:orientation="vertical">
+
+        <ImageView
+             android:layout_height="50dp"
+             android:layout_width="50dp"
+             android:src="@drawable/ikon"
+             android:background="#affaff"
+             android:layout_margin="10dp" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:background="#333333"
+             android:gravity="center"
+             android:padding="10dp"
+             android:layout_margin="20dp"
+             android:textSize="30dp"
+             android:textColor="#afffff"
+             android:text="TRULALA HOST" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:orientation="vertical">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:background="#afffff"
+             android:padding="10dp"
+             android:layout_margin="20dp"
+             android:textColor="#000000"
+             android:id="@+id/baru"
+             android:text="Baru" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:background="#afffff"
+             android:padding="10dp"
+             android:layout_margin="20dp"
+             android:textColor="#000000"
+             android:id="@+id/buka"
+             android:text="Buka" />
+
+    </LinearLayout>
+
+</LinearLayout>
